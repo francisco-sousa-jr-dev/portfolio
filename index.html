@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Francisco Assis de Sousa Junior — Desenvolvedor Júnior em formação.">
+  <title>Francisco Junior | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== CABEÇALHO ===== -->
+  <header class="cabecalho">
+    <a href="#inicio" class="logo">&lt;FJ /&gt;</a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="menu">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre Mim</a>
+      <a href="#trajetoria">Trajetória</a>
+      <a href="#projetos">Meus Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== INÍCIO ===== -->
+    <section id="inicio" class="hero">
+      <div class="hero-texto">
+        <p class="saudacao">Olá, eu sou</p>
+        <h1>Francisco Junior</h1>
+        <p class="cargo">Desenvolvedor Júnior em formação · Análise e Desenvolvimento de Sistemas</p>
+        <p class="resumo">
+          Depois de anos planejando rotas e cumprindo prazos nas estradas, agora traço um novo caminho:
+          a tecnologia. Estudo Python, Java e desenvolvimento web, criando soluções organizadas,
+          com atenção a detalhes e foco em entregar com qualidade.
+        </p>
+        <div class="botoes">
+          <a href="#projetos" class="btn btn-primario">Ver Projetos</a>
+          <a href="#contato" class="btn btn-secundario">Contato</a>
+        </div>
+      </div>
+      <div class="hero-foto">
+        <!-- Para usar uma foto: salve como img/perfil.jpg e troque a div abaixo por:
+             <img src="img/perfil.jpg" alt="Foto de Francisco Junior" class="avatar"> -->
+        <div class="avatar" aria-hidden="true">FJ</div>
+      </div>
+    </section>
+
+    <!-- ===== SOBRE MIM ===== -->
+    <section id="sobre" class="secao">
+      <h2 class="titulo-secao">Sobre Mim</h2>
+      <div class="sobre-grid">
+        <div class="sobre-texto">
+          <p>
+            Sou profissional em <strong>transição de carreira para a área de Tecnologia</strong> e curso
+            Tecnologia em Análise e Desenvolvimento de Sistemas na Faculdade Anhanguera. Também sou
+            formado em Gestão de Recursos Humanos.
+          </p>
+          <p>
+            Trago uma trajetória sólida em operações de <strong>transporte e logística</strong>, incluindo o
+            transporte de produtos perigosos, onde desenvolvi disciplina, planejamento, atenção a detalhes
+            e rigor no cumprimento de normas e prazos — competências que hoje aplico na programação.
+          </p>
+          <p>
+            Busco minha primeira oportunidade como <strong>Desenvolvedor Júnior</strong> para evoluir
+            tecnicamente, aprender com o time e contribuir com entregas de qualidade.
+          </p>
+        </div>
+        <div>
+          <h3 class="subtitulo">Tecnologias</h3>
+          <ul class="tecnologias">
+            <li>Python</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SQL</li>
+            <li>SQLite</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>VS Code</li>
+          </ul>
+          <h3 class="subtitulo">Competências</h3>
+          <ul class="tecnologias suaves">
+            <li>Resolução de problemas</li>
+            <li>Planejamento</li>
+            <li>Atenção a detalhes</li>
+            <li>Trabalho em equipe</li>
+            <li>Aprendizado contínuo</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TRAJETÓRIA ===== -->
+    <section id="trajetoria" class="secao">
+      <h2 class="titulo-secao">Trajetória</h2>
+      <ol class="linha-tempo">
+        <li>
+          <span class="periodo">2026 – Presente</span>
+          <h3>Portfólio e projetos práticos</h3>
+          <p>Desenvolvimento de projetos em Python, Java e JavaScript, com versionamento no GitHub.</p>
+        </li>
+        <li>
+          <span class="periodo">2023 – Presente</span>
+          <h3>Análise e Desenvolvimento de Sistemas</h3>
+          <p>Graduação na Faculdade Anhanguera: lógica de programação, banco de dados e orientação a objetos.</p>
+        </li>
+        <li>
+          <span class="periodo">2020 – Presente</span>
+          <h3>Transporte e Logística</h3>
+          <p>Motorista carreteiro (Loggix, Garbuio Transportes, Tex Courier): planejamento de rotas, conferência de documentação, checklists e transporte de produtos perigosos.</p>
+        </li>
+        <li>
+          <span class="periodo">2012</span>
+          <h3>Gestão de Recursos Humanos</h3>
+          <p>Graduação concluída na Faculdade Eça de Queiroz.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== PROJETOS ===== -->
+    <section id="projetos" class="secao">
+      <h2 class="titulo-secao">Meus Projetos</h2>
+      <div class="projetos-grid">
+
+        <article class="card">
+          <div class="card-topo">
+            <span class="card-icone">🚚</span>
+            <a href="https://github.com/francisco-sousa-jr-dev/registro-de-viagens" target="_blank" rel="noopener" class="card-link" aria-label="Ver no GitHub">GitHub ↗</a>
+          </div>
+          <h3>Registro de Viagens</h3>
+          <p>CRUD completo para registrar viagens de transporte com banco de dados, listagem e resumo de quilômetros rodados. Une minha experiência na logística com a programação.</p>
+          <ul class="tags"><li>Python</li><li>SQLite</li><li>SQL</li></ul>
+        </article>
+
+        <article class="card">
+          <div class="card-topo">
+            <span class="card-icone">🏦</span>
+            <a href="https://github.com/francisco-sousa-jr-dev/conta-bancaria-java" target="_blank" rel="noopener" class="card-link" aria-label="Ver no GitHub">GitHub ↗</a>
+          </div>
+          <h3>Sistema de Conta Bancária</h3>
+          <p>Aplicação de terminal que cadastra o titular e oferece menu para consultar saldo, depositar e sacar, com regra que impede saque sem saldo.</p>
+          <ul class="tags"><li>Java</li><li>POO</li></ul>
+        </article>
+
+        <article class="card">
+          <div class="card-topo">
+            <span class="card-icone">✅</span>
+            <a href="https://github.com/francisco-sousa-jr-dev/lista-de-tarefas" target="_blank" rel="noopener" class="card-link" aria-label="Ver no GitHub">GitHub ↗</a>
+          </div>
+          <h3>Lista de Tarefas</h3>
+          <p>Aplicação web para adicionar, concluir, filtrar e remover tarefas, que ficam salvas no navegador. <a href="https://francisco-sousa-jr-dev.github.io/lista-de-tarefas/" target="_blank" rel="noopener">Ver online</a>.</p>
+          <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+        </article>
+
+        <article class="card">
+          <div class="card-topo">
+            <span class="card-icone">🧮</span>
+            <a href="https://github.com/francisco-sousa-jr-dev/calculadora-imc" target="_blank" rel="noopener" class="card-link" aria-label="Ver no GitHub">GitHub ↗</a>
+          </div>
+          <h3>Calculadora de IMC</h3>
+          <p>Programa que calcula o Índice de Massa Corporal a partir da altura e do peso, valida as entradas e mostra a classificação.</p>
+          <ul class="tags"><li>Python</li></ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== CONTATO ===== -->
+    <section id="contato" class="secao contato">
+      <h2 class="titulo-secao">Entre em Contato</h2>
+      <p>Está buscando um desenvolvedor júnior dedicado ou quer trocar uma ideia? Me manda uma mensagem!</p>
+      <div class="contato-links">
+        <a href="mailto:junior_2931@yahoo.com">✉️ junior_2931@yahoo.com</a>
+        <a href="https://wa.me/5511954706487" target="_blank" rel="noopener">📱 (11) 95470-6487</a>
+        <a href="https://www.linkedin.com/in/SEU-LINKEDIN" target="_blank" rel="noopener">💼 LinkedIn</a>
+        <a href="https://github.com/francisco-sousa-jr-dev" target="_blank" rel="noopener">🐙 GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>Desenvolvido por <strong>Francisco Assis de Sousa Junior</strong> · Itapevi – SP</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
